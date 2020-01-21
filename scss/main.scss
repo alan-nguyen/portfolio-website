@@ -91,7 +91,11 @@ img {
     }
   }
 
+  // Header Inner
   &-inner {
+    background: $bg-image no-repeat 200% 30% / cover;
+    height: 5.5rem;
+    border-bottom: 3px $main-color solid;
   }
 }
 
