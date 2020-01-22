@@ -428,4 +428,6 @@ img {
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%; }
     #header-home .header-content {
-      display: none; } }
+      display: none; }
+  #header-inner {
+    height: 10rem; } }
