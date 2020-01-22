@@ -41,6 +41,7 @@
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
+  #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
   }
@@ -80,6 +81,34 @@
 
     &-c {
       display: none;
+    }
+  }
+
+  // Contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          'name'
+          'subject'
+          'email'
+          'phone'
+          'message';
+      }
+    }
+
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px #555 solid;
+
+        &:last-child {
+          border: none;
+          margin-bottom: 0;
+          padding-bototm: 0;
+        }
+      }
     }
   }
 
