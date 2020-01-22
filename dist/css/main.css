@@ -384,8 +384,11 @@ img {
 #contact-b .contact-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  text-align: center; }
+
+#contact-c h1 {
   text-align: center;
-  padding: 1rem; }
+  font-size: 4rem; }
 
 #main-footer {
   background: #333;

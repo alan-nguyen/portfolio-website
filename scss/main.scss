@@ -352,7 +352,14 @@ img {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       text-align: center;
-      padding: 1rem;
+    }
+  }
+
+  // Section C
+  &-c {
+    h1 {
+      text-align: center;
+      font-size: 4rem;
     }
   }
 }
